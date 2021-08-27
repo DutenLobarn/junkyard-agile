@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.moh-navbar {
+    width: 100%;
+    height: 30%;
+    /* background-color: rgb(177, 171, 171) */
+}
+
+.moh-nav-top {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 7px
+}
+
+.moh-nav-top ul {
+    display: flex;
+    margin-right: 10px;
+}
+
+.moh-nav-top ul li {
+    margin-right: 10px;
+    list-style: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(88, 86, 86);
+    cursor:pointer;
+
+}
+
+.moh-nav-bottom {
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100%;
+    font-weight: bold;
+    padding: 20px
+}
+
+.moh-nav-bottom-left {
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: red; */
+    align-items: center;
+}
+
+.moh-nav-logo {
+    font-size: 22px;
+    margin-right: 15px;
+    cursor:pointer;
+
+}
+
+.moh-nav-bottom-left ul {
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+}
+
+.moh-nav-bottom-left ul li {
+    margin-left: 10px;
+    list-style: none;
+    cursor:pointer;
+}
+
+.moh-redfont {
+    color: red
+}
+
+.moh-nav-bottom-right {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.moh-nav-bottom-right div {
+    margin-right: 10px;
+}
+
+.moh-nav-bottom-right input {
+    background-color: black;
+    margin-left: 10px;
+    background-color: transparent;
+    border: 0px solid;
+    color: white;
+    cursor:pointer;
+
+
+}
+
+.moh-nav-bottom-right input[type=text]:focus {
+   
+    outline: none;
+}
+
+.moh-nav-bottom-right i {
+    margin-left: 10px;
+    cursor:pointer;
+
+}
