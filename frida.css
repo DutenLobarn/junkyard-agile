@@ -1,0 +1,83 @@
+/*********** FRIDAS CSS ************/
+
+
+.fw-product-list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.fw-product-list-item{
+
+}
+
+
+.fw-product-pic{
+    width: 400px;
+}
+
+.fw-black-color-button{
+    display:block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: black;
+  font-size: 0;
+  border: none;
+}
+
+.fw-white-color-button{
+    display:block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: white;
+  font-size: 0;
+  border: 1px solid black;
+}
+
+
+
+
+/**** Produkt info *****/
+
+.fw-product-info{
+    line-height: 2px;
+}
+
+
+.fw-product-title{
+
+}
+
+
+.fw-product-desc{
+
+}
+
+
+/* Priserna -grupp */
+.fw-price{
+display: flex;
+justify-content: space-between;
+width: 30%;
+}
+
+.fw-current-price{
+
+}
+
+.fw-new-price{
+color: rgba(231, 22, 11, 0.83);
+}
+
+.fw-old-price{
+    text-decoration: line-through;
+    color: rgba(174, 174, 173, 0.67)
+}
+
+
+
+.fw-price-reduction{
+color: rgba(231, 22, 11, 0.83);
+}
