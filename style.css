@@ -1,0 +1,16 @@
+.buttonF{
+
+    background-color: black;
+    color: white;
+
+}
+.socialMedia{
+    color: gray;
+     text-decoration: none;
+}
+.list{
+   list-style-type: none;
+ }  
+.map{
+    size: 10px;
+}
